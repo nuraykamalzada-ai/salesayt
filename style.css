@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #938b8b;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 1000px;
+    margin: auto;
+    background: white;
+
+}
+
+header {
+    background: white;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+#logo {
+    float: left;
+    font: bold 2em Georgia, serif;
+    color: red;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+
+#banner {
+    background: #d4ced0;
+    padding: 60px 40px;
+}
+
+h1 {
+    font: bold 2.5em Georgia, serif;
+    color: #002c3e;
+    margin-top: 0;
+}
+
+.buton {
+    display: inline-block;
+    background: #f7444e;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.buton:hover {
+    background: transparent;
+    color: #f7444e;
+}
+
+.slider-sekil {
+    float: right;
+    width: 500px;
+    text-align: right;
+}
+
+.slider-sekil img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nokteler {
+    margin-top: 40px;
+}
+
+.nokteler span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.nokteler .aktif-nokta {
+    width: 24px;
+    /* Aktiv olan nöqtə daha uzundur */
+    border-radius: 6px;
+    background: #f7444e;
+}
+
+main {
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    font: bold 2em Georgia, serif;
+
+}
+
+.box {
+    float: left;
+    width: 300px;
+    margin: 16px;
+    padding: 20px;
+    background: #f7f8f9;
+    order: 1px solid #ddd;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: 180px;
+}
